@@ -1,0 +1,523 @@
+@import "./setting.css";
+@import "./header.css";
+.firstslider {
+  width: 100%;
+  height: 320px;
+}
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.swiper {
+  margin-left: auto;
+  margin-right: auto;
+}
+.swiper .swiper-button-next {
+  font-size: 30px;
+  font-weight: 700;
+  color: #000;
+  background-color: #ffffff;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 35px;
+  font-weight: bold;
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+}
+.swiper .swiper-button-prev {
+  font-size: 10px;
+  font-weight: 700;
+  color: #000;
+  background-color: #ffffff;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 35px;
+  font-weight: bold;
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+}
+.swiper .swiper-button-next:after {
+  font-size: 18px;
+  color: #2b2b2b;
+}
+.swiper .swiper-button-prev:after {
+  font-size: 18px;
+  color: #2b2b2b;
+}
+.category {
+  width: 100%;
+  height: 266px;
+}
+.category .center {
+  width: 1410px;
+  height: 191px;
+  margin: 0 auto;
+}
+.category .center p {
+  font-family: yekan;
+  font-size: 26px;
+  font-weight: 800;
+  color: #000;
+  text-align: center;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+.category .center a {
+  margin: 0px 80px 0px 80px;
+  text-align: center;
+}
+.category .center a img {
+  border-radius: 20px;
+  transition: 300ms;
+}
+.category .center a img:hover {
+  transform: scale(1.1, 1.1);
+}
+.dastebandi {
+  width: 100%;
+  height: 372px;
+}
+.dastebandi .center {
+  width: 80%;
+  height: 350px;
+  margin: 0 auto;
+}
+.dastebandi .center p {
+  font-size: 26px;
+  font-weight: 800;
+  font-family: yekan;
+  color: #000;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.dastebandi .center a img {
+  border-radius: 20px;
+  margin: 0px 35px 0px 35px;
+  transition: 300ms;
+}
+.dastebandi .center a :hover {
+  transform: scale(1.1, 1.1);
+}
+.jadid {
+  width: 100%;
+  height: 730px;
+}
+.jadid .m {
+  font-family: yekan;
+  font-size: 26px;
+  font-weight: 800;
+  color: #000;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.jadid .slides {
+  height: 530px;
+  width: inherit;
+}
+.swiper-slide {
+  flex-flow: column wrap;
+}
+.swiper-slide .s img {
+  width: 330px;
+  height: 396px;
+}
+.swiper-slide .a {
+  font-family: yekan;
+  font-size: 26px;
+  font-weight: 800;
+  color: #000;
+  text-decoration: none;
+  text-align: right;
+  display: block;
+}
+.swiper-slide .third {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.swiper-slide .b {
+  font-size: 14px;
+  text-align: right;
+  text-decoration: none;
+  font-family: yekan;
+  color: rgb(143, 143, 143);
+}
+.swiper-slide p {
+  font-family: yekan;
+  text-align: left;
+  font-size: 17px;
+  font-weight: 600;
+  color: #00bf6f;
+}
+.swiper .swiper-button-next {
+  font-size: 30px;
+  font-weight: 700;
+  color: #000;
+  text-align: center;
+  line-height: 35px;
+  font-weight: bold;
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+}
+.swiper .swiper-button-prev{
+  font-size: 10px;
+  font-weight: 700;
+  color: #000;
+  text-align: center;
+  line-height: 35px;
+  font-weight: bold;
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+}
+.swiper .swiper-button-next:after {
+  font-size: 18px;
+  color: #2b2b2b;
+}
+.swiper .swiper-button-prev:after {
+  font-size: 18px;
+  color: #2b2b2b;
+}
+.moshahede {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+}
+.moshahede a {
+  width: 310px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  justify-self: center;
+  justify-items: center;
+  margin: 0 auto;
+  border: 2px solid #bdc4d3;
+  border-radius: 30px;
+  text-decoration: none;
+  position: relative;
+  top: 10px;
+}
+.moshahede a:hover {
+  border-color: #1ac977;
+}
+.moshahede a:link {
+  color: #1ac977;
+}
+.moshahede a:active {
+  color: #1ac977;
+}
+.moshahede a:visited {
+  color: #1ac977;
+}
+.moshahede a .hame {
+  width: inherit;
+  height: inherit;
+  display: flex;
+  justify-content: center;
+  font-family: yekan;
+  font-size: 18px;
+  font-weight: bolder;
+  border-radius: 15px;
+  text-align: center;
+  align-content: center;
+}
+.moshahede a .hame p {
+  display: flex;
+  align-content: center center;
+  align-self: center;
+}
+.footer .container {
+  width: 100%;
+  height: 550px;
+  padding-top: 50px;
+  background-color: #ffffff;
+  border-top: 5px solid #f9f9f9;
+}
+.footer .container .row {
+  width: inherit;
+  height: 260px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.footer .container .row .kharid {
+  width: 210px;
+  height: 260px;
+  padding-left: 15px;
+  padding-right: 15px;
+  display: flex;
+  flex-flow: column;
+  gap: 20px;
+}
+.footer .container .row .kharid p {
+  color: #808280;
+  font-family: yekan;
+  font-size: 14px;
+  font-weight: bold;
+  margin-top: 20px;
+  padding-bottom: 10px;
+}
+.footer .container .row .kharid a {
+  color: #272727;
+  font-family: yekan;
+  font-size: 14px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: 300ms;
+}
+.footer .container .row .kharid a:hover {
+  color: #1ac977;
+  text-decoration: underline solid;
+}
+.footer .container .row .khadamat-moshtari {
+  width: 210px;
+  height: 260px;
+  padding-left: 15px;
+  padding-right: 15px;
+  display: flex;
+  flex-flow: column;
+  gap: 20px;
+}
+.footer .container .row .khadamat-moshtari p {
+  color: #808280;
+  font-family: yekan;
+  font-size: 14px;
+  font-weight: bold;
+  margin-top: 20px;
+  padding-bottom: 10px;
+}
+.footer .container .row .khadamat-moshtari a {
+  color: #272727;
+  font-family: yekan;
+  font-size: 14px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: 300ms;
+}
+.footer .container .row .khadamat-moshtari a:hover {
+  color: #1ac977;
+  text-decoration: underline solid;
+}
+
+.footer .container .row .information {
+  width: 210px;
+  height: 260px;
+  padding-left: 15px;
+  padding-right: 15px;
+  display: flex;
+  flex-flow: column;
+  gap: 20px;
+}
+.footer .container .row .information p {
+  color: #808280;
+  font-family: yekan;
+  font-size: 14px;
+  font-weight: bold;
+  margin-top: 20px;
+  padding-bottom: 10px;
+}
+.footer .container .row .information a {
+  color: #272727;
+  font-family: yekan;
+  font-size: 14px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: 300ms;
+}
+.footer .container .row .information a:hover {
+  color: #1ac977;
+  text-decoration: underline solid;
+}
+.footer .container .row .contact {
+  width: 360px;
+  height: 260px;
+  padding-left: 15px;
+  padding-right: 15px;
+  display: flex;
+  flex-flow: column;
+  gap: 20px;
+}
+.footer .container .row .contact .a {
+  font-family: yekan;
+  font-size: 16px;
+  font-weight: bolder;
+  margin-top: 20px;
+  color: #272727;
+}
+.footer .container .row .contact .b {
+  font-size: 13px;
+  font-family: yekan;
+  color: #272727;
+}
+.footer .container .row .contact .c {
+  font-family: yekan;
+  font-size: 17px;
+  font-weight: bold;
+  color: #808280;
+  display: flex;
+  flex-flow: column;
+  transition: 300ms;
+}
+.footer .container .row .contact .c a {
+  color: #272727;
+  text-decoration: none;
+}
+.footer .container .row .contact .c a:hover {
+  color: #1ac977;
+  text-decoration: underline solid;
+}
+.footer .container .row .socialmedia {
+  width: 360px;
+  height: 260px;
+  padding-left: 15px;
+  padding-right: 15px;
+  display: flex;
+  flex-flow: column;
+}
+.footer .container .row .socialmedia img {
+  width: 185px;
+  height: 40px;
+  text-align: left;
+  position: relative;
+  right: 100px;
+  margin-top: 20px;
+}
+.footer .container .row .socialmedia .dn .dn-app {
+  width: 230px;
+  height: 25px;
+  border: 2px solid #1ac977;
+  border-radius: 50px;
+  font-size: 17px;
+  font-family: yekan;
+  color: #1ac977;
+  text-decoration: none;
+  margin-right: 100px;
+  margin-top: 30px;
+  display: flex;
+  flex-flow: row;
+  top: 8px;
+  align-self: center;
+  justify-content: center;
+}
+.footer .container .row .socialmedia .dn .dn-app :hover {
+  border-color: #00bf6f;
+  color: #00bf6f;
+}
+.footer .container .row .socialmedia .dn .dn-app i {
+  margin-left: 8px;
+  margin-top: 3px;
+}
+.footer .container .row .socialmedia .social {
+  width: 330px;
+  height: 45px;
+  display: flex;
+  flex-flow: row;
+  gap: 15px;
+  row-gap: 15px;
+  position: relative;
+  left: 100px;
+}
+.footer .container .row .socialmedia .social a {
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  padding-top: 20px;
+  color: #272727;
+  text-decoration: none;
+}
+.footer .container .row .socialmedia .social a img:hover {
+  color: #1ac977;
+}
+.footer .container .row .socialmedia .magazine {
+  width: 140px;
+  height: 35px;
+  margin-top: 20px;
+}
+.footer .container .row .socialmedia .magazine a img {
+  width: 140px;
+  height: 35px;
+}
+.footer .container h2 {
+  color: #808280;
+  width: auto;
+  height: 22.5px;
+  margin-top: 30px;
+  font-size: 16px;
+  font-weight: bold;
+  font-family: yekan;
+  margin-right: 15px;
+  margin-bottom: 20px;
+}
+.footer .container .end {
+  display: flex;
+  gap: 100px;
+}
+.footer .container .end .about {
+  width: 810px;
+  height: 178px;
+  margin-right: 15px;
+}
+.footer .container .end .about p {
+  font-family: yekan;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 30px;
+  color: #808280;
+  word-spacing: 5px;
+}
+.footer .container .end .about a {
+  color: #1ac977;
+  text-decoration: none;
+  font-size: 15px;
+  margin-top: 30px;
+  font-family: yekan;
+  font-weight: bold;
+}
+.footer .container .end .about2 {
+  width: 570px;
+  height: 178px;
+  display: flex;
+  flex-flow: row;
+  justify-content: left;
+}
+.footer .container .end .about2 a img {
+  width: 90px;
+  height: 98px;
+}
+.footer .container .p {
+  display: flex;
+  flex-flow: row;
+  gap: 1000px;
+}
+.footer .container .p .a2 {
+  font-family: Helvetica, sans-serif;
+  font-size: 12px;
+  font-weight: 800;
+  direction: ltr;
+}
+.footer .container .p .a1 {
+  font-size: 12px;
+  font-weight: 800;
+  font-family: yekan;
+}

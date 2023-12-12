@@ -1,0 +1,282 @@
+header {
+  width: 100%;
+  height: 200px;
+}
+header .topheader {
+  width: inherit;
+  height: 60px;
+}
+header .topheader a {
+  width: inherit;
+  height: inherit;
+  display: block;
+}
+header .topheader a img {
+  width: inherit;
+  height: inherit;
+  object-fit: cover;
+}
+header .bottomheader {
+  width: 100%;
+  height: 140px;
+  border-bottom: 1px solid #e6e6e6;
+  display: inline-block;
+}
+header .bottomheader .topbh {
+  width: inherit;
+  height: 95px;
+}
+header .bottomheader .topbh .center {
+  width: 1425px;
+  height: inherit;
+  margin: 0 auto;
+}
+header .bottomheader .topbh .center .login {
+  width: 250px;
+  height: inherit;
+  text-align: center;
+  display: inline-block;
+}
+header .bottomheader .topbh .center .login .basket {
+  display: inline-block;
+  margin-top: 27.5px;
+}
+header .bottomheader .topbh .center .login .basket i {
+  color: #2b2b2b;
+  font-size: 30px;
+  vertical-align: middle;
+  transition: 300ms;
+}
+header .bottomheader .topbh .center .login .basket:hover i {
+  color: #1ac977;
+}
+header .bottomheader .topbh .center .login .logi {
+  width: 140px;
+  height: 40px;
+  background-color: #1ac977;
+  display: inline-block;
+  text-align: center;
+  line-height: 40px;
+  text-decoration: none;
+  font-family: yekan;
+  font-size: 14px;
+  color: whitesmoke;
+  margin-right: 20px;
+  vertical-align: middle;
+  border-radius: 16px;
+  transition: 300ms;
+}
+header .bottomheader .topbh .center .login .logi:hover {
+  background-color: rgb(0, 150, 87);
+}
+header .bottomheader .topbh .center .search {
+  width: 930px;
+  height: inherit;
+
+  display: inline-block;
+  vertical-align: top;
+}
+header .bottomheader .topbh .center .search input[type="search"] {
+  width: 700px;
+  height: 50px;
+  border-radius: 50px;
+  display: inline-block;
+  margin: 0 auto;
+  padding: 30px;
+  padding-right: 60px;
+  box-sizing: border-box;
+  background-color: rgb(245, 245, 245);
+  margin-top: 20px;
+  outline: unset;
+  border: unset;
+}
+header .bottomheader .topbh .center .search form i {
+  position: absolute;
+  top: 98px;
+  right: 318px;
+  color: #2b2b2b;
+  font-size: 30px;
+}
+header .bottomheader .topbh .center .search input[type="search"]::placeholder {
+  font-family: yekan;
+  color: gray;
+  font-weight: bold;
+}
+header .bottomheader .topbh .center .logo {
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
+}
+header .bottomheader .topbh .center .logo a img {
+  margin-top: 24px;
+}
+header .bottomheader .bottombh {
+  width: 100%;
+  height: 45px;
+}
+
+.border {
+  border-bottom: 1px #cacaca solid;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.navi {
+  width: 90%;
+  position: relative;
+}
+
+.dasteh-bandi {
+  height: 26px;
+  width: 115px;
+  display: inline-block;
+  cursor: pointer;
+  transition: 200ms;
+}
+.dasteh-bandi .dasteh-bandi-title {
+  font-size: 15px !important;
+  font-weight: 600 !important;
+}
+.dasteh-bandi .protect a {
+  display: inline-block;
+  color: black;
+  height: 27px;
+  box-sizing: border-box;
+  text-decoration: none;
+  margin: 0 10px;
+  padding: 3px;
+  font-size: 13px;
+  position: relative;
+  font-family: yekan;
+  transition: 200ms;
+}
+.navigation .dasteh-bandi-title {
+  display: inline-block;
+  color: black;
+  height: 27px;
+  box-sizing: border-box;
+  text-decoration: none;
+  margin: 0 10px;
+  padding: 3px;
+  font-size: 13px;
+  position: relative;
+  font-family: yekan;
+  transition: 200ms;
+}
+.navigation .dasteh-bandi-title:hover,
+.dasteh-bandi:hover {
+  border-bottom: 2px #00af49 solid;
+  box-sizing: border-box;
+}
+
+.navigation .dasteh-bandi-title img {
+  vertical-align: middle;
+  padding-left: 4px;
+  padding-bottom: 3px;
+}
+.navigation .dasteh-bandi-title span {
+  display: inline-block;
+  width: 1px;
+  height: 12px;
+  margin-left: 10px;
+  background-color: #7c7b7b;
+  vertical-align: middle;
+}
+.dasteh-bandi-title i {
+  margin-left: 10px;
+  font-size: 16px;
+  color: #5f5f5f;
+  vertical-align: middle;
+  font-weight: 400;
+}
+
+.navigation div a {
+  all: unset !important;
+  font-family: yekan !important;
+  font-size: 12px !important;
+}
+.dastebandi-items-box {
+  position: absolute;
+  top: 28px;
+  width: 80vw;
+  border-radius: 0 0 8px 8px;
+  box-shadow: 0 14px 20px 0 rgb(0 0 0 / 24%);
+  height: 550px;
+  background-color: white;
+  z-index: 2;
+  display: none;
+  transition: 300ms !important;
+}
+.navi .navigation .dasteh-bandi:hover .dastebandi-items-box {
+  display: block;
+}
+.dive13 {
+  height: 100%;
+  width: 20%;
+  background-color: white;
+  border-left: 1px #cccccc solid;
+}
+.dastebandi-items-box .dive13 .dastebandi-items-name {
+  height: 40px;
+  padding: 8px;
+  box-sizing: border-box;
+  transition: 300ms;
+}
+.dastebandi-items-box .dive13 .dastebandi-items-name:hover {
+  background-color: #ebebeb;
+}
+.dastebandi-items-box .dive13 .dastebandi-items-name:hover .titl-hov {
+  color: #15a368 !important;
+}
+.dastebandi-items-box .dive13 .dastebandi-items-name:hover i {
+  color: #15a368;
+}
+
+.dastebandi-items-box
+  .dive13
+  .dastebandi-items-name:hover
+  .dastebandi-items-title {
+  display: block;
+}
+.dastebandi-items-box .dive13 .dastebandi-items-name i {
+  padding: 5px;
+  font-size: 16px;
+  color: #555555;
+}
+
+.dastebandi-items-box .dive13 .dastebandi-items-name a {
+  cursor: pointer !important;
+  color: black !important;
+  font-size: 14px !important;
+}
+.dastebandi-items-box .dive13 .dastebandi-items-name a:hover {
+  color: #009657 !important;
+}
+
+.dastebandi-items-title {
+  display: none;
+  width: 80%;
+  height: 100%;
+  position: absolute;
+  right: 20%;
+  top: 0;
+  transition: 300ms;
+}
+
+.dastebandi-items-child {
+  display: none;
+  margin-right: 5px;
+  width: 200px;
+  height: 99%;
+  display: inline-block;
+  transition: 300ms !important;
+}
+.dastebandi-items-title .dastebandi-items-child .last {
+  all: unset !important;
+  font-family: yekan !important;
+  width: 100% !important;
+  display: inline-block !important;
+  transition: 300ms !important;
+  margin-right: 5px !important;
+  padding-bottom: 10px !important;
+}

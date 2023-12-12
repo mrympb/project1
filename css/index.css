@@ -1,0 +1,672 @@
+@import "./setting.css";
+@import "./header.css";
+@import "./product1.css";
+@import "./product2.css";
+@import "./footer.css";
+
+.dastebandi-model1 {
+  width: 1410px;
+  height: 210px;
+
+  margin: auto;
+}
+.item-dastebandi-model1 {
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+  padding: 0px 15px;
+  border-radius: 5px;
+}
+.item-dastebandi-model1 a {
+  width: 200px;
+  height: 200px;
+}
+.item-dastebandi-model1 img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  transition: 300ms;
+}
+.dastebandi-model1 .item-dastebandi-model1 :hover img {
+  transform: scale(1.1, 1.1);
+}
+.shegefti-time {
+  display: inline-block;
+  width: max-content;
+  height: 81px;
+  margin-top: 62px;
+  margin-right: 80px;
+}
+.shegfti {
+  display: inline-block;
+  width: 720px;
+  height: 56px;
+}
+.shegfti img {
+  width: 307px;
+  height: 56px;
+  vertical-align: middle;
+}
+.time {
+  display: inline-block;
+  font-family: yekan;
+  color: #1ac977;
+  display: inline-block;
+  width: 710px;
+  height: 56px;
+  text-align: left;
+}
+.time p {
+  display: inline-block;
+  vertical-align: middle;
+  font-weight: bold;
+}
+.time img {
+  width: 230px;
+  vertical-align: middle;
+  margin-left: 64px;
+}
+.shegefti-box {
+  width: 100%;
+  height: 710px;
+  margin-top: 3px;
+}
+.shegefti-box .center {
+  width: 90%;
+  height: inherit;
+  margin: 0 auto;
+  padding: 10px;
+  box-sizing: border-box;
+}
+.swiper-slide {
+  flex-flow: column wrap;
+}
+.swiper-slide a {
+  font-family: yekan;
+  text-decoration: none;
+}
+.swiper-slide a .image {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+}
+.swiper-slide a .jooti {
+  width: 100%;
+  height: 15px;
+  text-align: left;
+  padding-left: 10px;
+  box-sizing: border-box;
+  display: inline-block;
+}
+.swiper-slide a .jooti span {
+  font-size: 14px;
+  text-decoration: line-through;
+  font-family: yekan;
+  color: rgb(143, 143, 143);
+}
+.swiper-slide a .jooti .j {
+  font-size: 17px;
+  text-decoration: none;
+  text-align: right;
+  color: black;
+  font-weight: bolder;
+}
+.swiper-slide a .jooti .p {
+  font-size: 14px;
+  font-family: yekan;
+  color: rgb(143, 143, 143);
+  text-decoration: none;
+  line-height: 10px;
+  text-align: right;
+}
+.swiper-slide a .jooti .p1 {
+  font-size: 17px;
+  font-weight: bold;
+  text-align: left;
+  color: #1ac977;
+  font-family: yekan;
+  text-decoration: none;
+}
+.swiper-slide img :hover {
+  background-image: url(../images/jooti\ jeans-back.webp);
+}
+.moshahede {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+}
+.moshahede a {
+  width: 310px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  justify-self: center;
+  justify-items: center;
+  margin: 0 auto;
+  border: 2px solid #bdc4d3;
+  border-radius: 30px;
+  text-decoration: none;
+  position: relative;
+  top: 10px;
+}
+.moshahede a:hover {
+  border-color: #1ac977;
+}
+.moshahede a:link {
+  color: #1ac977;
+}
+.moshahede a:active {
+  color: #1ac977;
+}
+.moshahede a:visited {
+  color: #1ac977;
+}
+.moshahede a .hame {
+  width: inherit;
+  height: inherit;
+  display: flex;
+  justify-content: center;
+  font-family: yekan;
+  font-size: 18px;
+  font-weight: bolder;
+  border-radius: 15px;
+  text-align: center;
+  align-content: center;
+}
+.moshahede a .hame p {
+  display: flex;
+  align-content: center center;
+  align-self: center;
+}
+.category2 {
+  width: 100%;
+  height: 365px;
+  display: flex;
+  flex-flow: row-reverse;
+  align-items: center;
+  gap: 30px;
+  align-self: center;
+}
+.lebaszir a img {
+  width: 335px;
+  height: 250px;
+  border-radius: 15px;
+}
+.saat2 a img {
+  width: 335px;
+  height: 250px;
+  border-radius: 15px;
+}
+.lebasbache2 a img {
+  width: 335px;
+  height: 250px;
+  border-radius: 15px;
+}
+.kalaye-khab2 a img {
+  width: 335px;
+  height: 250px;
+  border-radius: 15px;
+}
+.lebaszir,
+.lebasbache2,
+.saat2,
+.kalaye-khab2 {
+  padding-left: 17px;
+  transition: 300ms;
+}
+.lebaszir:hover {
+  transform: scale(1.1, 1.1);
+}
+.lebasbache2:hover {
+  transform: scale(1.1, 1.1);
+}
+.saat2:hover {
+  transform: scale(1.1, 1.1);
+}
+.kalaye-khab2:hover {
+  transform: scale(1.1, 1.1);
+}
+.porfurushtarin {
+  width: 100%;
+  height: 700px;
+}
+.porfurushtarin p {
+  position: relative;
+  top: 40px;
+  z-index: 2;
+  text-align: center;
+  font-family: yekan;
+  font-size: 26px;
+  color: black;
+  font-weight: bold;
+}
+.swiper-slide a .jooti {
+  width: 100%;
+  height: 15px;
+  text-align: right;
+  padding-left: 10px;
+  box-sizing: border-box;
+  margin-top: 15px;
+}
+
+/* .swiper-slide a .jooti span {
+  font-size: 14px;
+  text-decoration: line-through;
+  font-family: yekan;
+  color: rgb(143, 143, 143);
+} */
+.swiper-slide a .jooti .j {
+  font-size: 17px;
+  text-decoration: none;
+  text-align: right;
+  color: black;
+  font-weight: bolder;
+}
+.swiper-slide a .jooti .second{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.swiper-slide a .jooti .second .p {
+  font-size: 14px;
+  font-family: yekan;
+  color: rgb(143, 143, 143);
+  text-decoration: none;
+  line-height: 10px;
+  text-align: right;
+}
+.swiper-slide a .jooti .second .p1 {
+  font-size: 17px;
+  font-weight: bold;
+  text-align: left;
+  color: #1ac977;
+  font-family: yekan;
+  text-decoration: none;
+}
+.swiper-slide a .jooti .p2 {
+  font-size: 17px;
+  font-weight: bold;
+  text-align: left;
+  color: white;
+  font-family: yekan;
+  text-decoration: none;
+}
+.moshahede2 {
+  width: 100%;
+  height: 60px;
+  margin: 0 auto;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+.moshahede2 a {
+  width: 310px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  justify-self: center;
+  justify-items: center;
+  margin: 0 auto;
+  border: 2px solid #bdc4d3;
+  border-radius: 30px;
+  text-decoration: none;
+  position: relative;
+  top: 10px;
+}
+.moshahede2 a:hover {
+  border-color: #1ac977;
+}
+.moshahede2 a:link {
+  color: #1ac977;
+}
+.moshahede2 a:active {
+  color: #1ac977;
+}
+.moshahede2 a:visited {
+  color: #1ac977;
+}
+.moshahede2 a .hame {
+  width: inherit;
+  height: inherit;
+  display: flex;
+  justify-content: center;
+  font-family: yekan;
+  font-size: 18px;
+  font-weight: bolder;
+  border-radius: 15px;
+  text-align: center;
+  align-content: center;
+}
+.moshahede2 a .hame p {
+  display: flex;
+  align-content: center center;
+  align-self: center;
+}
+.features {
+  width: 100%;
+  height: 400px;
+  margin-top: 20px;
+  display: flex;
+  flex-flow: row;
+  text-align: center;
+  gap: 30px;
+}
+.features div {
+  margin-top: 20px;
+  width: 330px;
+  height: 270px;
+  text-align: center;
+  background-image: url(../images/featurebg-back.jpg);
+  /* axo dota kon yeki kamrang yeki por rang vaqti hover shod image avaz beshe va por rang tare jaigozin beshe */
+  background-repeat: no-repeat;
+  background-size: 250px;
+  margin: 50px;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  transition: 300ms;
+}
+.features div:hover {
+  background-image: url(../images/featurebg.png);
+}
+.features .t1 {
+  width: auto;
+  height: auto;
+  font-family: yekan;
+  font-size: 20px;
+  color: #666;
+}
+.features .t2 {
+  font-family: yekan;
+  font-size: 13px;
+  color: #666;
+}
+.khadamat {
+  background-image: url(../images/featurebg.png);
+  background-repeat: no-repeat;
+  background-size: 250px;
+}
+.khadamat:hover {
+  opacity: 100%;
+}
+
+.t1:link {
+  color: black;
+  text-decoration: none;
+  list-style: none;
+}
+.t2:link {
+  color: black;
+  text-decoration: none;
+  list-style: none;
+}
+.zemanat-bazgasht {
+  width: 330px;
+  height: 280px;
+  background-image: url(../images/featurebg.png);
+  background-repeat: no-repeat;
+  background-size: 250px;
+}
+
+.brands {
+  width: 100%;
+  height: 365px;
+  background-color: #f9f9f9;
+}
+.brands .bestbrands {
+  font-family: yekan;
+  font-size: 26px;
+  font-weight: 500;
+  color: #212529;
+  text-align: center;
+  padding-top: 60px;
+}
+.brands .brandha {
+  width: 100%;
+  height: 155px;
+}
+.brands .brandha .swiper {
+  padding-top: 40px;
+}
+.brands .brandha .swiper-slide {
+  width: 140px;
+  height: 70px;
+}
+.brands .brandha .swiper-slide a img {
+  object-fit: cover;
+}
+.brands .brandha .swiper .swiper-button-next {
+  background-color: transparent;
+}
+.brands .brandha .swiper .swiper-button-prev {
+  background-color: transparent;
+}
+.moshahede3 {
+  width: 100%;
+  height: 60px;
+  margin: 0 auto;
+  margin-top: 50px;
+  position: relative;
+  bottom: 30px;
+  display: flex;
+  justify-content: center;
+}
+.moshahede3 a {
+  width: 310px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  justify-self: center;
+  justify-items: center;
+  margin: 0 auto;
+  border: 2px solid #bdc4d3;
+  border-radius: 30px;
+  text-decoration: none;
+  position: relative;
+  top: 10px;
+}
+.moshahede3 a:hover {
+  border-color: #1ac977;
+}
+.moshahede3 a:link {
+  color: #1ac977;
+}
+.moshahede3 a:active {
+  color: #1ac977;
+}
+.moshahede3 a:visited {
+  color: #1ac977;
+}
+.moshahede3 a .hame {
+  width: inherit;
+  height: inherit;
+  display: flex;
+  justify-content: center;
+  font-family: yekan;
+  font-size: 18px;
+  font-weight: bolder;
+  border-radius: 15px;
+  text-align: center;
+  align-content: center;
+}
+.moshahede3 a .hame p {
+  display: flex;
+  align-content: center center;
+  align-self: center;
+}
+.banimag {
+  width: 100%;
+  height: 570px;
+  background-color: #ffffff;
+}
+.banimag .jj {
+  font-family: yekan;
+  font-size: 26px;
+  font-weight: 500;
+  text-align: center;
+  margin-top: 60px;
+}
+.banimag .mag {
+  width: 90%;
+  height: 335px;
+  position: relative;
+  right: 80px;
+  top: 10px;
+}
+.banimag .mag .swiper .swiper-slide {
+  width: 335px;
+  height: 280px;
+  margin-top: 15px;
+}
+.banimag .mag .swiper .swiper-button-next {
+  background-color: transparent;
+}
+.banimag .mag .swiper .swiper-button-prev {
+  background-color: transparent;
+}
+.banimag .mag .swiper .swiper-wrapper .swiper-slide .ax {
+  width: 330px;
+  height: 215px;
+}
+.banimag .mag .swiper .swiper-wrapper .swiper-slide .title {
+  font-family: yekan;
+  font-size: 18px;
+  font-weight: 200;
+  color: #212529;
+  position: relative;
+  top: 20px;
+  transition: 300ms;
+}
+.banimag .mag .swiper .swiper-wrapper .swiper-slide .title :hover {
+  color: #60d7a5;
+}
+.moshahede4 {
+  width: 100%;
+  height: 60px;
+  margin: 0 auto;
+  margin-top: 50px;
+  position: relative;
+  bottom: 30px;
+  display: flex;
+  justify-content: center;
+}
+.moshahede4 a {
+  width: 310px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  justify-self: center;
+  justify-items: center;
+  margin: 0 auto;
+  border: 2px solid #bdc4d3;
+  border-radius: 30px;
+  text-decoration: none;
+  position: relative;
+  top: 10px;
+}
+.moshahede4 a:hover {
+  border-color: #1ac977;
+}
+.moshahede4 a:link {
+  color: #1ac977;
+}
+.moshahede4 a:active {
+  color: #1ac977;
+}
+.moshahede4 a:visited {
+  color: #1ac977;
+}
+.moshahede4 a .hame {
+  width: inherit;
+  height: inherit;
+  display: flex;
+  justify-content: center;
+  font-family: yekan;
+  font-size: 18px;
+  font-weight: bolder;
+  border-radius: 15px;
+  text-align: center;
+  align-content: center;
+}
+.moshahede4 a .hame p {
+  display: flex;
+  align-content: center center;
+  align-self: center;
+}
+.khabarname {
+  width: 100%;
+  height: 320px;
+}
+.khabarname .center {
+  width: 80%;
+  height: 235px;
+  background-color: #f8f8f8;
+  margin: 0 auto;
+  background-image: url(../images/letter.svg);
+  background-repeat: no-repeat;
+}
+.khabarname .center .a {
+  font-family: yekan;
+  font-size: 26px;
+  font-weight: bold;
+  color: #212529;
+  text-align: center;
+}
+.khabarname .center .b {
+  font-family: yekan;
+  font-size: 15px;
+  color: #212529;
+  text-align: center;
+  position: relative;
+  top: 20px;
+}
+.khabarname .c {
+  width: 650px;
+  height: 80px;
+  background-color: #ffffff;
+  margin: 0 auto;
+  border-radius: 50px;
+  position: relative;
+  bottom: 50px;
+}
+.khabarname .c form {
+  position: relative;
+  right: 25px;
+  top: 10px;
+}
+.khabarname .c form input[type="email"] {
+  width: 452px;
+  height: 55px;
+  background-color: #efefef;
+  border-radius: 50px;
+  border: transparent;
+}
+.khabarname .c form input[type="email"]::placeholder {
+  font-family: yekan;
+  color: #757575;
+  font-weight: bold;
+  font-size: 14px;
+  text-align: right;
+  padding-right: 15px;
+}
+.khabarname .c form a button {
+  width: 142px;
+  height: 55px;
+  background-color: #1ac977;
+  border-radius: 50px;
+  border: transparent;
+  font-size: 14px;
+  font-family: yekan;
+  color: #ffffff;
+  transition: 300ms;
+}
+.khabarname .c form a button i {
+  margin-right: 20px;
+}
+.khabarname .c form a button:hover {
+  background-color: #009657;
+  transition-duration: 300ms;
+}
